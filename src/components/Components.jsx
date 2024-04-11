@@ -1,6 +1,11 @@
-import React from 'react';
 const Components = () => {
-  return <div>This is our dummy component</div>;
+  return (
+    <>
+      <button type="button" className="bg-slate-400">
+        SUBMIT
+      </button>
+    </>
+  );
 };
 
 export default Components;
