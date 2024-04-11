@@ -1,31 +1,22 @@
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './pages/HomePages';
 
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link,
-} from "react-router-dom";
-import Home from "./pages/HomePages";
-
- function App() {
-
-   return (
-  <Router>
-  <div className="App">
-      <ul className="App-header">
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <ul className="App-header">
           <li>
-              <Link to="/HomePages">Home</Link>
+            <Link to="/HomePages">Home</Link>
           </li>
-          
-      </ul>
-      <Routes>
-          <Route path="/HomePages" element={<Home/>}></Route>
-      </Routes>
-  </div>
-</Router>
-);
-
- }
+        </ul>
+        <Routes>
+          <Route path="/HomePages" element={<Home />}></Route>
+        </Routes>
+      </div>
+    </Router>
+  );
+}
 // class App extends Component {
 //   render() {
 //       return (
@@ -35,7 +26,7 @@ import Home from "./pages/HomePages";
 //                       <li>
 //                           <Link to="/HomePages">Home</Link>
 //                       </li>
-                      
+
 //                   </ul>
 //                   <Routes>
 //                       <Route path="/HomePages" element={<Home/>}></Route>
