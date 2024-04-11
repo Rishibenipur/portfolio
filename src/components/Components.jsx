@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 const Components = () => {
   return <div>This is our dummy component</div>;
 };

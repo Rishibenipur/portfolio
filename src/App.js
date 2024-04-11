@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -7,36 +7,42 @@ import {
 } from "react-router-dom";
 import Home from "./pages/HomePages";
 
+ function App() {
 
-//import Component from "./components/Components";
+   return (
+  <Router>
+  <div className="App">
+      <ul className="App-header">
+          <li>
+              <Link to="/HomePages">Home</Link>
+          </li>
+          
+      </ul>
+      <Routes>
+          <Route path="/HomePages" element={<Home/>}></Route>
+      </Routes>
+  </div>
+</Router>
+);
 
-// function App() {
-
-//   return (
-//     <div className="text-red-900 font-bold">
-//        Hello Rea
-//     </div>
-//   );
-
-// }
-class App extends Component {
-  render() {
-      return (
-          <Router>
-              <div className="App ">
-                  <ul className="App-header">
-                      <li>
-                          <Link to="/HomePages">Home</Link>
-                      </li>
+ }
+// class App extends Component {
+//   render() {
+//       return (
+//           <Router>
+//               <div className="App">
+//                   <ul className="App-header">
+//                       <li>
+//                           <Link to="/HomePages">Home</Link>
+//                       </li>
                       
-                  </ul>
-                  <Routes>
-                      <Route path="/HomePages" element={<Home/>}></Route>
-                  </Routes>
-              </div>
-          </Router>
-      );
-  }
-}
-
+//                   </ul>
+//                   <Routes>
+//                       <Route path="/HomePages" element={<Home/>}></Route>
+//                   </Routes>
+//               </div>
+//           </Router>
+//       );
+//   }
+// }
 export default App;
