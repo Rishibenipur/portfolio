@@ -1,11 +1,12 @@
-import Components from '../components/Components';
+import NavBar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Body from '../components/Body';
 const Home = () => {
   return (
     <>
-      <div className="text-red-900">
-        This is temporary HomePages where i have used my component
-      </div>
-      <Components />
+      <NavBar />
+      <Body />
+      <Footer />
     </>
   );
 };
