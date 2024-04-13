@@ -1,17 +1,17 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
-import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { Body } from './components/Body';
 import Error from './components/Error';
 import About from './components/About';
 import Experience from './components/Experience';
+import FixedNavBar from './components/FixedNavBar';
 
 const AppLayout = () => {
   return (
     <React.Fragment>
-      <Navbar />
+      <FixedNavBar/>
       <Outlet />
       <Footer />
     </React.Fragment>
