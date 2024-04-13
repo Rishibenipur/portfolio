@@ -11,7 +11,7 @@ import FixedNavBar from './components/FixedNavBar';
 const AppLayout = () => {
   return (
     <React.Fragment>
-      <FixedNavBar/>
+      <FixedNavBar />
       <Outlet />
       <Footer />
     </React.Fragment>
