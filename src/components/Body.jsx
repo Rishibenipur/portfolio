@@ -13,4 +13,5 @@ export const Body = () => {
       <RoutingDiv />
     </div>
   );
-};
+}
+export default Body;
