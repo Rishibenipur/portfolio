@@ -1,7 +1,7 @@
 import StickyNav from '../components/StickyNav';
 import VideoAnimation from '../components/VideoAnimation';
 import UserProfile from '../components/UserProfile';
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const Dashboard = () => {
