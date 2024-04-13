@@ -2,7 +2,7 @@ import React from 'react';
 import profileImage from '../assets/images/pexels-italo-melo-2379005.jpg';
 import iconImage from '../assets/images/icons8-twitter-50.png';
 
-const ShortBioDiv = () => {
+const UserProfile = () => {
   return (
     <React.Fragment>
       <div className="flex justify-between items-center">
@@ -127,4 +127,4 @@ const ShortBioDiv = () => {
   );
 };
 
-export default ShortBioDiv;
+export default UserProfile;

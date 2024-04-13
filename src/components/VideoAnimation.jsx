@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-const YourComponent = () => {
+const VideoAnimation = () => {
   const videoRef = useRef(null);
 
   useEffect(() => {
@@ -24,4 +24,4 @@ const YourComponent = () => {
   );
 };
 
-export default YourComponent;
+export default VideoAnimation;

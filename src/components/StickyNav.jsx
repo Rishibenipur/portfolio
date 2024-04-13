@@ -1,4 +1,4 @@
-const FixedNavBar = () => {
+const StickyNav = () => {
   return (
     <>
       <div
@@ -18,4 +18,4 @@ const FixedNavBar = () => {
     </>
   );
 };
-export default FixedNavBar;
+export default StickyNav;
